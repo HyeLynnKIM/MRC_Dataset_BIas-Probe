@@ -7,14 +7,14 @@ import copy
 import os
 import jsonlines
 import json
+
 # from sentence_transformers import SentenceTransformer, util
 from konlpy.tag import Mecab
 from pyjosa.josa import Josa
 
-
-
 ## Korlex API Definition
 from krx_def import *
+
 
 mecab = Mecab()
 class KorLexAPI:
