@@ -15,8 +15,9 @@
     ├── multimasking
     │   └── multimasking.py
     ├── singlemaskingforwordtoken
-    │   └── singlemasking.py
+    └── └── singlemasking.py
 ``` 
+---
 
 ## * Final_files : 각 소스 파일 기능
 
