@@ -1,5 +1,4 @@
 from transformers import AutoTokenizer, AutoModelForMaskedLM
-
 import numpy as np
 import torch
 
@@ -10,7 +9,6 @@ import torch
 얼마의 비용으로 노후 어린이집 누수 문제를 해결하니
 1 ['해결'] ['양자택일', '득점', '해소', '예비음', '위치결정', '잡도리', '성패', '대승리', '히트', '예정'] 원 [['엄', '화', '미래상', '제갈', '홍', '판상', '싫음', '형', '천', '왕']]
 """
-
 
 def replace_tokens_for_masking(question, text_to_replaced, tokenizer):
     tokens_to_replaced = tokenizer.tokenize(text_to_replaced)
