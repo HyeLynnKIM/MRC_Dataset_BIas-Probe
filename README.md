@@ -1,4 +1,4 @@
-# MRC_Dataset_BIas-Probe
+# MRC_Dataset_Bias-Probe
 💡 [AIHUB OPENLAB] 교차성능평가와 적대적 학습을 이용한 기계독해 데이터셋 편향성 분석 (논문 O)
 
 ```bash
